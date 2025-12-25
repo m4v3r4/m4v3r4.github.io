@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giriş Yap - m4v3r4</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="header__inner container">
+      <div class="header__logo"><a href="index.html">m4v3r4</a></div>
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="max-width: 400px;">
+    <section class="section">
+      <h2 style="text-align: center; margin-bottom: 1.5rem;">Giriş Yap</h2>
+      
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">E-posta Adresi</label>
+          <input type="email" id="login-email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Şifre</label>
+          <input type="password" id="login-password" required>
+        </div>
+        <button type="submit" class="btn-primary" style="width: 100%;">Giriş Yap</button>
+      </form>
+
+      <div style="margin-top: 1rem; text-align: center;">
+        <p>veya</p>
+        <button id="google-login-btn" class="btn-primary" style="width: 100%; background-color: #DB4437; margin-top: 0.5rem;">Google ile Giriş Yap</button>
+      </div>
+
+      <div class="auth-switch">
+        Hesabın yok mu? <a href="register.html">Kayıt Ol</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><p>&copy; 2024 m4v3r4.</p></div></footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
