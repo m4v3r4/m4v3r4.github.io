@@ -1,0 +1,88 @@
+:root {
+  --primary-color: #0f172a;
+  --secondary-color: #1e293b;
+  --text-color: #e5e7eb;
+  --accent-color: #38bdf8;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* =======================================================
+   3. Header
+======================================================= */
+.header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: var(--secondary-color); /* Tema değişkeni kullanıldı */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25); /* Daha belirgin gölge */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  z-index: 100;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;           /* Yatayda ortala */
+  justify-content: space-between; /* Logo ve menü arasında boşluk bırak */
+  gap: 20px;                     /* Opsiyonel aralık */
+}
+
+
+
+.header__logo {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
+.header__logo img.custom-logo {
+  max-height: 40px;
+  width: auto;
+}
+
+.header__logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header__nav ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.header__nav a:hover {
+  color: var(--accent-color);
+}
+
+.footer {
+  margin-top: auto;
+  padding: 20px 0;
+  background-color: var(--secondary-color);
+  text-align: center;
+  font-size: 0.9rem;
+}
