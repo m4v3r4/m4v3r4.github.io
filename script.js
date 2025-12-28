@@ -326,3 +326,51 @@ if (latestBlogContainer) {
             latestBlogContainer.innerHTML = '<p style="text-align:center;">Yazılar yüklenemedi.</p>';
         });
 }
+
+// Mobil Menü İşlemleri
+const menuBtn = document.getElementById('mobile-menu-btn');
+const navLinks = document.querySelector('.nav-links');
+
+if (menuBtn && navLinks) {
+    menuBtn.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        
+        // İkonu değiştir (Hamburger <-> Çarpı)
+        const icon = menuBtn.querySelector('i');
+        if (icon) {
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        }
+    });
+
+    // Menüdeki bir linke tıklanınca menüyü kapat
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            const icon = menuBtn.querySelector('i');
+            if (icon) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+    });
+}
+
+// Header Scroll Efekti
+const header = document.querySelector('header');
+function checkScroll() {
+    if (window.scrollY > 50) {
+        header.classList.add('scrolled');
+    } else {
+        header.classList.remove('scrolled');
+    }
+}
+if (header) {
+    window.addEventListener('scroll', checkScroll);
+    checkScroll(); // Sayfa yüklendiğinde veya yenilendiğinde kontrol et
+}

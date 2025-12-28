@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salih Berkay Uluçay | Portfolyo</title>
+    <meta name="description" content="Salih Berkay Uluçay - IT Danışmanı, Yazılım Geliştirici ve Ağ Uzmanı kişisel portfolyo web sitesi. Projeler, deneyimler ve iletişim bilgileri.">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -13,6 +14,12 @@
         <nav>
             <div class="container" style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                 <div class="logo">Salih Berkay Uluçay</div>
+                
+                <!-- Mobil Menü Butonu -->
+                <button class="menu-toggle" id="mobile-menu-btn" aria-label="Menüyü Aç/Kapat">
+                    <i class="fas fa-bars"></i>
+                </button>
+
                 <ul class="nav-links">
                     <li>
                         <a href="#home">
@@ -41,14 +48,15 @@
                     
                     <li><button id="lang-toggle" class="lang-btn">EN</button></li>
                     
+                    
+
+                    <li><button id="theme-toggle" class="lang-btn theme-btn" aria-label="Temayı Değiştir"><i class="fas fa-moon"></i></button></li>
                     <!-- Tema Seçici (Logolar) -->
                     <li class="theme-selector">
                         <button class="distro-btn" data-set-distro="ubuntu" title="Ubuntu"><img src="assets/ubuntu.svg" alt="Ubuntu"></button>
                         <button class="distro-btn" data-set-distro="mint" title="Linux Mint"><img src="assets/mint.svg" alt="Mint"></button>
                         <button class="distro-btn" data-set-distro="pardus" title="Pardus"><img src="assets/pardus.svg" alt="Pardus"></button>
                     </li>
-
-                    <li><button id="theme-toggle" class="lang-btn theme-btn"><i class="fas fa-moon"></i></button></li>
                 </ul>
             </div>
         </nav>
@@ -314,23 +322,7 @@
         </div>
     </section>
 
-    <section id="latest-blog" class="reveal">
-        <h2>
-            <span class="lang-tr">Son Yazılar</span>
-            <span class="lang-en">Latest Posts</span>
-        </h2>
-        <div class="container">
-            <div class="blog-grid" id="latest-blog-list">
-                <p style="text-align: center; width: 100%;">Yükleniyor / Loading...</p>
-            </div>
-            <div style="text-align: center; margin-top: 2rem;">
-                <a href="blog.html" class="btn">
-                    <span class="lang-tr">Tüm Yazıları Gör</span>
-                    <span class="lang-en">View All Posts</span>
-                </a>
-            </div>
-        </div>
-    </section>
+    
 
     <section id="contact" class="contact reveal">
         <h2>
@@ -342,14 +334,18 @@
             <span class="lang-en">Have a project? Or just want to say hi? Fill out the form, and I'll get back to you as soon as possible.</span>
         </p>
         <div class="contact-links">
-            <a href="https://www.linkedin.com/in/s-berkay-u" target="_blank">LinkedIn</a>
-            <a href="https://github.com/m4v3r4" target="_blank">GitHub</a>
-            <a href="mailto:sberkayu@gmail.com">sberkayu@gmail.com</a>
+            
+            <a href="https://www.linkedin.com/in/s-berkay-u" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/m4v3r4" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="mailto:sberkayu@gmail.com"><i class="fas fa-envelope"></i> sberkayu@gmail.com</a>
         </div>
     </section>
 
     <footer>
-         
+        <div class="container" style="text-align: center; padding: 1.5rem 0; opacity: 0.8;">
+            <span class="lang-tr">Bu site GPL v3.0 ile lisanslanmıştır.</span>
+            <span class="lang-en">Licensed under GPL v3.0.</span>
+        </div>
     </footer>
 
     <!-- Yukarı Çık Butonu -->

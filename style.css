@@ -83,13 +83,19 @@
 
         /* Header & Navigasyon */
         header {
-            background: var(--secondary-color);
+            background: transparent;
             color: var(--white);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            box-shadow: none;
             position: fixed;
             width: 100%;
             top: 0;
             z-index: 1000;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        header.scrolled {
+            background: var(--secondary-color);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         nav {
@@ -132,8 +138,22 @@
             font-size: 1.1rem;
         }
 
+        /* Mobil Menü Butonu */
+        .menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--white);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
         /* Tema Seçici Butonları */
         .theme-selector {
+            align-items: center;
+            display: flex;
+
+            align-self: center;
             display: flex;
             gap: 8px;
             margin: 0 10px;
@@ -498,12 +518,40 @@
             .hero h1 {
                 font-size: 2rem;
             }
-
-            .nav-links {
-                display: none;
+            
+            .menu-toggle {
+                display: block;
             }
-
-            /* Basitlik için mobilde menüyü gizledik, JS ile hamburger menü eklenebilir */
+            
+            .nav-links {
+                position: absolute;
+                top: 100%; /* Header'ın hemen altına */
+                left: 0;
+                width: 100%;
+                background: var(--secondary-color);
+                flex-direction: column;
+                align-items: center;
+                padding: 2rem 0;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                display: none;
+                z-index: 999;
+            }
+            
+            .nav-links.active {
+                display: flex;
+                animation: slideDown 0.3s ease forwards;
+            }
+            
+            .nav-links li {
+                margin: 1rem 0;
+                width: 100%;
+                text-align: center;
+            }
+            
+            @keyframes slideDown {
+                from { opacity: 0; transform: translateY(-10px); }
+                to { opacity: 1; transform: translateY(0); }
+            }
         }
 
         /* Yukarı Çık Butonu */
