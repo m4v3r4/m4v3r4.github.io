@@ -1,0 +1,29 @@
+{{ define "main" }}
+<article class="contact-page shell narrow">
+  <header class="contact-hero">
+    <div class="profile-path">$ ping berkay</div>
+    <span class="eyebrow">İLETİŞİM</span>
+    <h1>Bir şeyler<br><em>üretelim.</em></h1>
+    <p>{{ .Description }}</p>
+  </header>
+
+  <section class="contact-grid" aria-label="İletişim kanalları">
+    {{ range .Params.channels }}
+    <a class="contact-card{{ if .primary }} primary-contact{{ end }}" href="{{ .url }}"{{ if ne .command "mailto" }} rel="me"{{ end }}>
+      <div class="contact-command"><span>$</span> {{ .command }}</div>
+      <span class="contact-name">{{ .name }}</span>
+      <strong>{{ .value }}</strong>
+      <span class="contact-arrow" aria-hidden="true">↗</span>
+    </a>
+    {{ end }}
+  </section>
+
+  <section class="contact-note">
+    <span class="section-code">// BEFORE_SEND</span>
+    <div>
+      <h2>Mesajında ne olsun?</h2>
+      <p>Projenin amacı, mevcut durum ve birlikte çözmek istediğimiz mesele hakkında birkaç cümle yeterli. Teknik bir sorun için yazıyorsan kullandığın ortamı ve aldığın hata çıktısını eklemen süreci hızlandırır.</p>
+    </div>
+  </section>
+</article>
+{{ end }}

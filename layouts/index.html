@@ -1,0 +1,109 @@
+{{ define "main" }}
+{{ $posts := where site.RegularPages "Section" "yazilar" }}
+{{ $latest := index $posts.ByDate.Reverse 0 }}
+
+<section class="home-intro shell">
+  <div class="home-intro-copy">
+    <span class="eyebrow">KİŞİSEL DÜŞÜNCE ARŞİVİ</span>
+    <h1>Düşünceler için<br><em>kalıcı bir yer.</em></h1>
+    <p>Teknoloji, siyaset, emek ve gündelik hayat arasında kurulan bağları; tamamlanmış hükümlerden çok, zaman içinde değişen düşünce kayıtları olarak biriktiriyorum.</p>
+    <div class="home-actions">
+      <a class="button primary" href="{{ "/yazilar/" | relURL }}">Yazıları keşfet <span aria-hidden="true">→</span></a>
+      <button class="button ghost" type="button" data-search-open><span aria-hidden="true">⌕</span> Arşivde ara</button>
+    </div>
+  </div>
+
+  {{ with $latest }}
+    <article class="featured-post">
+      <div class="featured-post-top">
+        <span>SON KAYIT</span>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+      </div>
+      <div>
+        {{ with .GetTerms "kategoriler" }}
+          {{ with index . 0 }}<a class="featured-category" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+        {{ end }}
+        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ with .Description }}<p>{{ . }}</p>{{ end }}
+      </div>
+      <a class="featured-read" href="{{ .RelPermalink }}"><span>{{ .ReadingTime }} dk okuma</span><strong>Yazıya git →</strong></a>
+    </article>
+  {{ end }}
+</section>
+
+<nav class="category-quicknav shell" aria-label="Yazı kategorileri">
+  <span class="category-quicknav-label">Dizin</span>
+  <div>
+    {{ range site.Taxonomies.kategoriler.ByCount }}
+      <a href="#kategori-{{ .Term | anchorize }}">{{ .Page.LinkTitle }} <small>{{ .Count }}</small></a>
+    {{ end }}
+  </div>
+  <a class="category-quicknav-all" href="{{ "/kategoriler/" | relURL }}">Tüm kategoriler ↗</a>
+</nav>
+
+<section class="home-library shell">
+  <header class="library-heading">
+    <div>
+      <span class="eyebrow">ARŞİVDEN</span>
+      <h2>Yazılar</h2>
+    </div>
+    <p>{{ len $posts }} metin; merakın, kuşkunun ve değişen fikirlerin kaydı.</p>
+  </header>
+
+  <div class="library-groups">
+    {{ range site.Taxonomies.kategoriler.ByCount }}
+      <section class="library-group" id="kategori-{{ .Term | anchorize }}" aria-labelledby="kategori-baslik-{{ .Term | anchorize }}">
+        <header class="library-group-heading">
+          <div>
+            <span class="library-path">./{{ .Term }}/</span>
+            <h3 id="kategori-baslik-{{ .Term | anchorize }}">{{ .Page.LinkTitle }}</h3>
+          </div>
+          <a href="{{ .Page.RelPermalink }}">{{ .Count }} yazının tümü →</a>
+        </header>
+
+        <div class="home-post-grid">
+          {{ range first 4 .Pages.ByDate.Reverse }}
+            <article class="home-post-card">
+              <div class="home-post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+                <span>{{ .ReadingTime }} dk</span>
+              </div>
+              <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h4>
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+              <a class="home-post-link" href="{{ .RelPermalink }}" aria-label="{{ .LinkTitle }} yazısını oku">Oku <span aria-hidden="true">↗</span></a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ else }}
+      <p>Henüz yayımlanmış yazı yok.</p>
+    {{ end }}
+
+    {{ $uncategorized := where $posts "Params.kategoriler" nil }}
+    {{ with $uncategorized }}
+      <section class="library-group" id="kategori-diger" aria-labelledby="kategori-baslik-diger">
+        <header class="library-group-heading">
+          <div>
+            <span class="library-path">./diger/</span>
+            <h3 id="kategori-baslik-diger">Diğer</h3>
+          </div>
+          <span>{{ len . }} yazı</span>
+        </header>
+        <div class="home-post-grid">
+          {{ range first 4 .ByDate.Reverse }}
+            <article class="home-post-card">
+              <div class="home-post-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+                <span>{{ .ReadingTime }} dk</span>
+              </div>
+              <h4><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h4>
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+              <a class="home-post-link" href="{{ .RelPermalink }}" aria-label="{{ .LinkTitle }} yazısını oku">Oku <span aria-hidden="true">↗</span></a>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

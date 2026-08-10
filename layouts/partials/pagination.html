@@ -1,0 +1,9 @@
+{{ with .Paginator }}
+  {{ if gt .TotalPages 1 }}
+    <nav class="pagination" aria-label="Sayfalama">
+      {{ with .Prev }}<a href="{{ .URL }}">← Yeni</a>{{ else }}<span></span>{{ end }}
+      <span>{{ .PageNumber }} / {{ .TotalPages }}</span>
+      {{ with .Next }}<a href="{{ .URL }}">Eski →</a>{{ else }}<span></span>{{ end }}
+    </nav>
+  {{ end }}
+{{ end }}

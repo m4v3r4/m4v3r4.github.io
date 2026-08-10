@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="page-head shell narrow">
+  <span class="eyebrow">{{ if eq .Kind "taxonomy" }}DİZİN{{ else if eq .Kind "term" }}ETİKET{{ else }}ARŞİV{{ end }}</span>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
+</section>
+
+<section class="shell narrow">
+  {{ if eq .Kind "taxonomy" }}
+    <div class="term-grid">
+      {{ range .Pages.ByTitle }}
+        <a class="term-card" href="{{ .RelPermalink }}">
+          <span>{{ .LinkTitle }}</span>
+          <small>{{ len .Pages }} yazı</small>
+        </a>
+      {{ end }}
+    </div>
+  {{ else }}
+    <div class="post-list">
+      {{ range .Paginator.Pages }}
+        {{ partial "post-card.html" . }}
+      {{ else }}
+        <p>Bu bölümde henüz içerik yok.</p>
+      {{ end }}
+    </div>
+    {{ partial "pagination.html" . }}
+  {{ end }}
+</section>
+{{ end }}

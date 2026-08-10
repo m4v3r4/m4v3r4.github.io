@@ -1,0 +1,73 @@
+{{ define "main" }}
+<article class="profile-page shell">
+  <header class="profile-hero">
+    <div class="profile-copy">
+      <div class="profile-path">$ whoami</div>
+      <span class="eyebrow">HAKKIMDA</span>
+      <h1>Berkay<br><em>Uluçay.</em></h1>
+      <p>{{ .Description }}</p>
+      <div class="profile-actions">
+        <a class="button primary" href="{{ "/iletisim/" | relURL }}"><span aria-hidden="true">→</span> İletişime geç</a>
+        <a class="button ghost" href="{{ site.Params.github }}" rel="me">GitHub profilim ↗</a>
+      </div>
+    </div>
+    <div class="profile-visual">
+      <div class="avatar-terminal">
+        <div class="avatar-bar"><span><i></i><i></i><i></i></span><span>profile.png</span></div>
+        <img src="{{ site.Params.avatar }}" alt="Berkay Uluçay GitHub profil fotoğrafı" width="460" height="460">
+        <div class="avatar-status"><span><i></i> @m4v3r4</span><span>İstanbul · TR</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="profile-intro">
+    <span class="section-code">// PROFILE</span>
+    <div>
+      <h2>Üreten, araştıran,<br>öğrendiklerini paylaşan.</h2>
+      <p>Flutter geliştiricisi ve ağ teknolojileri meraklısıyım. Çapraz platform uygulamalar geliştiriyor; Linux sistemleri, bilgisayar ağları ve teknik altyapılarla çalışıyorum.</p>
+      <p>Bir ürünün yalnızca çalışmasını değil, anlaşılır, sürdürülebilir ve kullanıcıya gerçekten faydalı olmasını önemsiyorum. Bu site; teknoloji, siyaset, emek ve toplumsal dönüşüm üzerine notlarımı kalıcı bir arşivde topladığım alan.</p>
+    </div>
+  </section>
+
+  <section class="profile-section">
+    <div class="section-heading compact-heading">
+      <div><span class="eyebrow">$ ls ./odak-alanlari</span><h2>Ne üzerine çalışıyorum?</h2></div>
+    </div>
+    <div class="focus-grid">
+      {{ range .Params.focus }}
+      <article class="focus-card">
+        <span>{{ .code }}</span>
+        <h3>{{ .title }}</h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="profile-section tech-section">
+    <div>
+      <span class="eyebrow">TOOLBOX</span>
+      <h2>Kullandığım teknolojiler</h2>
+    </div>
+    <div class="tech-cloud">
+      {{ range .Params.technologies }}<span>{{ . }}</span>{{ end }}
+    </div>
+  </section>
+
+  <section class="profile-section projects-section">
+    <div class="section-heading compact-heading">
+      <div><span class="eyebrow">$ find ./github -type public</span><h2>Seçili açık kaynak projeler</h2></div>
+      <a class="text-link" href="{{ site.Params.github }}?tab=repositories">Tüm depolar →</a>
+    </div>
+    <div class="project-grid">
+      {{ range .Params.projects }}
+      <a class="project-card" href="{{ .url }}">
+        <div><span class="project-type">{{ .type }}</span><span aria-hidden="true">↗</span></div>
+        <h3>{{ .name }}</h3>
+        <p>{{ .text }}</p>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+</article>
+{{ end }}

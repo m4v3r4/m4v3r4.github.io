@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="{{ site.Language.Locale | default "tr" }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body data-search-index="{{ "index.json" | relURL }}">
+  <a class="skip-link" href="#icerik">İçeriğe geç</a>
+  <div class="reading-progress" aria-hidden="true"><span></span></div>
+  {{ partial "header.html" . }}
+
+  <main id="icerik" class="site-main">
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ partial "footer.html" . }}
+  {{ partial "search.html" . }}
+  <script src="{{ "js/main.js" | relURL }}" defer></script>
+</body>
+</html>

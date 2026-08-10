@@ -1,0 +1,13 @@
+{{- $pages := where site.RegularPages "Section" "yazilar" -}}
+[
+{{- range $index, $page := $pages.ByDate.Reverse -}}
+  {{- if $index }},{{ end }}
+  {
+    "title": {{ $page.LinkTitle | jsonify }},
+    "url": {{ $page.RelPermalink | jsonify }},
+    "description": {{ ($page.Description | default ($page.Summary | plainify | truncate 180)) | jsonify }},
+    "date": {{ $page.Date.Format "02.01.2006" | jsonify }},
+    "readingTime": {{ $page.ReadingTime }}
+  }
+{{- end -}}
+]

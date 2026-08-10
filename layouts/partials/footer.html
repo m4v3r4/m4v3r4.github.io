@@ -1,0 +1,15 @@
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <div>
+      <strong><span aria-hidden="true">$</span> echo "{{ site.Title }}"</strong>
+      <p>{{ site.Params.footer }}</p>
+    </div>
+    <div class="footer-links">
+      {{ with site.Home.OutputFormats.Get "rss" }}
+        <a href="{{ .RelPermalink }}">RSS</a>
+      {{ end }}
+      <a href="https://github.com/m4v3r4" rel="me">GitHub</a>
+      <a href="#" data-scroll-top>başa dön ↑</a>
+    </div>
+  </div>
+</footer>

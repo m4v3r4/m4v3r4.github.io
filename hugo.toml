@@ -1,0 +1,64 @@
+baseURL = "https://m4v3r4.github.io/"
+locale = "tr-TR"
+title = "Berkay Uluçay"
+enableRobotsTXT = true
+enableGitInfo = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  author = "Berkay Uluçay"
+  description = "Teknoloji, siyaset, emek, özgür yazılım ve toplumsal dönüşüm üzerine yazılar."
+  intro = "Teknoloji, siyaset, emek ve toplumsal dönüşüm üzerine notlar, incelemeler ve uzun okumalar."
+  footer = "Metinler aksi belirtilmedikçe yazara aittir."
+  github = "https://github.com/m4v3r4"
+  email = "sberkayu@gmail.com"
+  linkedin = "https://www.linkedin.com/in/s-berkay-u/"
+  x = "https://x.com/m4v3r4"
+  avatar = "https://avatars.githubusercontent.com/u/67810878?v=4"
+
+[permalinks]
+  yazilar = "/yazilar/:slug/"
+
+[taxonomies]
+  category = "kategoriler"
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 3
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
+  term = ["HTML"]
+
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
+[[menus.main]]
+  name = "Yazılar"
+  pageRef = "/yazilar"
+  weight = 10
+
+[[menus.main]]
+  name = "Arşiv"
+  pageRef = "/arsiv"
+  weight = 20
+
+[[menus.main]]
+  name = "Hakkında"
+  pageRef = "/hakkinda"
+  weight = 30
+
+[[menus.main]]
+  name = "İletişim"
+  pageRef = "/iletisim"
+  weight = 40

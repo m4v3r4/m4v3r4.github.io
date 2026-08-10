@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article class="standalone-page shell narrow">
+  <header>
+    <span class="eyebrow">SAYFA</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </header>
+  <div class="article-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

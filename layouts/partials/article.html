@@ -1,0 +1,65 @@
+<article class="article shell">
+  <header class="article-header">
+    <div class="article-path" aria-label="Konum"><a href="{{ site.Home.RelPermalink }}">~</a> / <a href="{{ "/yazilar/" | relURL }}">yazilar</a> / <span>{{ with .File }}{{ .ContentBaseName }}{{ else }}{{ $.Title | urlize }}{{ end }}</span></div>
+    <div class="article-kicker">
+      {{ with .GetTerms "kategoriler" }}
+        {{ with index . 0 }}
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ end }}
+      {{ else }}
+        <span>YAZI</span>
+      {{ end }}
+    </div>
+
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Description }}
+      <p class="article-deck">{{ . }}</p>
+    {{ end }}
+
+    <div class="article-meta">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date | time.Format ":date_long" }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ .ReadingTime }} dk okuma</span>
+      <span aria-hidden="true">·</span>
+      <span>{{ .WordCount }} kelime</span>
+    </div>
+  </header>
+
+  <div class="article-grid">
+    {{ if ne .Params.toc false }}
+      <aside class="toc-wrap">
+        <div class="toc">
+          <span class="toc-label">İÇİNDEKİLER</span>
+          {{ .TableOfContents }}
+        </div>
+      </aside>
+    {{ end }}
+
+    <div class="article-content">
+      {{ if ne .Params.toc false }}
+        <details class="mobile-toc">
+          <summary>İçindekiler</summary>
+          {{ .TableOfContents }}
+        </details>
+      {{ end }}
+      {{ .Content }}
+
+    </div>
+  </div>
+</article>
+
+<nav class="post-nav shell narrow" aria-label="Yazılar arasında gezinme">
+  <div>
+    {{ with .PrevInSection }}
+      <span>← Önceki</span>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </div>
+  <div class="next">
+    {{ with .NextInSection }}
+      <span>Sonraki →</span>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    {{ end }}
+  </div>
+</nav>

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<section class="page-head shell narrow">
+  <span class="eyebrow">KRONOLOJİ</span>
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p>{{ . }}</p>{{ end }}
+</section>
+
+<section class="archive shell narrow">
+  {{ $posts := where site.RegularPages "Section" "yazilar" }}
+  {{ range $posts.GroupByDate "2006" }}
+    <div class="archive-year">
+      <h2>{{ .Key }}</h2>
+      <div class="archive-items">
+        {{ range .Pages.ByDate.Reverse }}
+          <a class="archive-item" href="{{ .RelPermalink }}">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan" }}</time>
+            <span>{{ .LinkTitle }}</span>
+          </a>
+        {{ end }}
+      </div>
+    </div>
+  {{ else }}
+    <p>Henüz yayımlanmış yazı yok.</p>
+  {{ end }}
+</section>
+{{ end }}

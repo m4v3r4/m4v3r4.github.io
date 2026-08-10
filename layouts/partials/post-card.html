@@ -1,0 +1,16 @@
+<article class="post-card">
+  <div class="post-card-meta">
+    <span class="post-index" aria-hidden="true">MD</span>
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>
+    <span>{{ .ReadingTime }} dk</span>
+  </div>
+
+  <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }} <span aria-hidden="true">↗</span></a></h2>
+
+  {{ with .Description }}
+    <p>{{ . }}</p>
+  {{ else }}
+    <p>{{ .Summary | plainify | truncate 180 }}</p>
+  {{ end }}
+
+</article>

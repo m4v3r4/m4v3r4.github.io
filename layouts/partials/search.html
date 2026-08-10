@@ -1,0 +1,19 @@
+<dialog class="search-dialog" aria-labelledby="search-title">
+  <div class="search-window">
+    <div class="search-head">
+      <div>
+        <span class="search-prompt" aria-hidden="true">$</span>
+        <strong id="search-title">yazılarda ara</strong>
+      </div>
+      <button type="button" aria-label="Aramayı kapat" data-search-close>esc</button>
+    </div>
+    <label class="search-field">
+      <span aria-hidden="true">›</span>
+      <span class="sr-only">Arama terimi</span>
+      <input type="search" autocomplete="off" placeholder="başlık, konu veya etiket..." data-search-input>
+    </label>
+    <div class="search-info" data-search-info>Aramak için yazmaya başlayın.</div>
+    <div class="search-results" data-search-results aria-live="polite"></div>
+    <div class="search-help"><span><kbd>↑</kbd><kbd>↓</kbd> gezin</span><span><kbd>enter</kbd> aç</span><span><kbd>esc</kbd> kapat</span></div>
+  </div>
+</dialog>
