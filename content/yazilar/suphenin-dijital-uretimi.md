@@ -1,7 +1,7 @@
 ---
 
 title: "Şüphenin Dijital Üretimi"
-date: 2026-08-10T14:38:00+03:00
+date: 2026-07-10T14:38:00+03:00
 draft: false
 slug: "suphenin-dijital-uretimi"
 

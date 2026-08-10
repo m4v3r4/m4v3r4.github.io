@@ -1,6 +1,6 @@
 ---
 title: "Bir Bilinç Akışının Kaydı"
-date: 2026-08-08T11:00:00+03:00
+date: 2026-08-01T11:00:00+03:00
 draft: false
 slug: "ilk-yazi"
 aliases:
