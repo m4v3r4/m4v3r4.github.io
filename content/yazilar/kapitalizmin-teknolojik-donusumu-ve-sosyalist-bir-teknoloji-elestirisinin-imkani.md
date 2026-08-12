@@ -1,7 +1,7 @@
 ---
 
 title: "Kapitalizmin Teknolojik Dönüşümü ve Sosyalist Bir Teknoloji Eleştirisinin İmkânı"
-date: 2026-08-09T11:00:00+03:00
+date: 2026-06-20T14:35:00+03:00
 draft: false
 slug: "kapitalizmin-teknolojik-donusumu-ve-sosyalist-bir-teknoloji-elestirisinin-imkani"
 
@@ -167,7 +167,7 @@ Bu ilke kullanıcı özgürlüğü açısından oldukça güçlü ve tutarlı.
 
 Çünkü bir yazılım lisansı, “bu programı yalnızca benim doğru bulduğum amaçlarla kullanabilirsin” demeye başladığında kullanıcı üzerindeki denetim yeniden lisans sahibine geçmiş olur.
 
-Fakat sosyalist bir teknoloji eleştirisi açısından mesele burada bitmiyor.
+Fakat teknoloji tartışması burada bitmiyor.
 
 Programın herhangi bir amaçla kullanılabilmesi başka bir soru sormamızı engellemiyor:
 
@@ -187,7 +187,7 @@ sorusunun yanına başka bir soru daha eklemek gerekiyor:
 
 **“Bu teknoloji ne için kullanılıyor ve buna kim karar veriyor?”**
 
-Sosyalist teknoloji eleştirisinin özgür yazılımdan ayrıldığı değil, onun açtığı alanı genişlettiği yerlerden biri tam burasıdır.
+Teknoloji eleştirisinin özgür yazılımdan ayrılmaktan çok onun açtığı alanı genişlettiği yerlerden biri tam burasıdır.
 
 ## Özgür yazılımın sınırı nerede?
 
@@ -317,7 +317,7 @@ Aynı kültürel dünyada kolektivist paylaşım pratikleriyle güçlü bireycil
 
 Bu yazı dizisinin ilerleyen bölümlerinde bu meseleye ayrıca döneceğiz.
 
-## Sosyalist bir teknoloji eleştirisi nereden başlayabilir?
+## Bir teknoloji eleştirisi nereden başlayabilir?
 
 Bu yazı dizisinin amacı “özgür yazılım sosyalist midir?” sorusuna evet ya da hayır demek değil.
 
@@ -325,7 +325,7 @@ Gelecekteki sosyalist toplumun ayrıntılı teknoloji programını bugünden yaz
 
 Daha temel bir sorunun peşindeyiz:
 
-**Kapitalizmin teknolojik dönüşümünü çözümleyebilmek için sosyalistlerin hangi kavramsal araçlara ihtiyacı var?**
+**Kapitalizmin teknolojik dönüşümünü çözümleyebilmek için hangi kavramsal araçlara ihtiyacımız var?**
 
 Bunun için Marx'ın makine, üretici güçler ve toplumsal işbirliği üzerine çözümlemelerine; Braverman'ın emek süreci analizine; Noble'ın teknolojik tasarımın toplumsal belirlenimine ilişkin çalışmalarına; hacker kültürü ve özgür yazılım deneyimine birlikte bakacağız.
 
@@ -349,7 +349,7 @@ Ve en önemlisi, teknik görünen bir meselenin arkasındaki politik soruyu gör
 
 **Teknoloji üzerinde kim söz sahibi?**
 
-Sosyalist bir teknoloji eleştirisinin yapması gereken, bu soruyu kodun sınırlarının dışına taşımaktır.
+Teknoloji eleştirisinin yapması gereken, bu soruyu kodun sınırlarının dışına taşımaktır.
 
 Kod üzerindeki özgürlükten üretim araçlarının mülkiyetine;
 
@@ -370,29 +370,15 @@ Onu anlamadan başka bir teknoloji ilişkisinin imkânını da tartışamayız.
 
 ---
 
-## Kaynaklar
+## Kaynakça ve ileri okuma
 
-- Benkler, Yochai. “Coase's Penguin, or, Linux and The Nature of the Firm.” *The Yale Law Journal*, Cilt 112, 2002, s. 369–446.  
-  https://www.yalelawjournal.org/article/coases-penguin-or-linux-and-the-nature-of-the-firm
-- Braverman, Harry. *Labor and Monopoly Capital: The Degradation of Work in the Twentieth Century*. Monthly Review Press, 1974.  
-  https://monthlyreview.org/product/labor_and_monopoly_capital/
-- Coleman, E. Gabriella. *Coding Freedom: The Ethics and Aesthetics of Hacking*. Princeton University Press, 2013.  
-  https://press.princeton.edu/books/paperback/9780691144610/coding-freedom
-- GNU Project / Free Software Foundation. “The Free Software Definition.”  
-  https://www.gnu.org/philosophy/free-sw.html
-- Harvey, David. *A Brief History of Neoliberalism*. Oxford University Press, 2005.  
-  https://global.oup.com/academic/product/a-brief-history-of-neoliberalism-9780199283279
-- Marx, Karl. *Kapital: Ekonomi Politiğin Eleştirisi*, Cilt I, “Makine ve Büyük Sanayi”.  
-  https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm
-- Marx, Karl ve Friedrich Engels. *Komünist Manifesto*. 1848.  
-  https://www.marxists.org/archive/marx/works/1848/communist-manifesto/
-- Noble, David F. *Forces of Production: A Social History of Industrial Automation*. Alfred A. Knopf, 1984.  
-  https://archive.org/details/forcesofproducti00nobl
-- Open Source Initiative. “History of the Open Source Initiative.”  
-  https://opensource.org/history
-- Stallman, Richard. “Why Open Source Misses the Point of Free Software.” GNU Project / Free Software Foundation.  
-  https://www.gnu.org/philosophy/open-source-misses-the-point.html
-- Winner, Langdon. “Do Artifacts Have Politics?” *Daedalus*, Cilt 109, Sayı 1, 1980, s. 121–136.  
-  https://www.jstor.org/stable/20024652
-- World Trade Organization. *Agreement on Trade-Related Aspects of Intellectual Property Rights (TRIPS)*. 1994.  
-  https://www.wto.org/english/docs_e/legal_e/27-trips.pdf
+- Karl Marx ve Friedrich Engels, [*Komünist Manifesto*](https://www.marxists.org/turkce/m-e/1848/manifest/kpm.htm). Büyük sanayi, dünya pazarı ve kapitalist üretimin tarihsel dönüşümü için Türkçe tam metin.
+- Karl Marx ve Friedrich Engels, [Türkçe yapıtlar arşivi](https://www.marxists.org/turkce/m-e/index.htm). *Kapital*'in “Makine ve Büyük Sanayi” çözümlemesi ile *Alman İdeolojisi* için erişim noktası.
+- GNU Projesi, [“Özgür Yazılım Nedir?”](https://www.gnu.org/philosophy/free-sw.tr.html). Özgür yazılımın dört temel özgürlüğü.
+- Richard Stallman, [“Açık Kaynak, Özgür Yazılımın Özünü Gözden Kaçırıyor”](https://www.gnu.org/philosophy/open-source-misses-the-point.tr.html). İki yaklaşım arasındaki amaç ve değer ayrımı.
+- GNU Projesi, [“Copyleft Nedir?”](https://www.gnu.org/licenses/copyleft.tr.html). Mülkiyet hukukunun paylaşım özgürlüğünü korumak amacıyla kullanılması.
+- Nick Dyer-Witheford, Atle Mikkola Kjøsen ve James Steinhoff, [*Yapay Zekâ ve Kapitalizmin Geleceği: İnsandışı Bir Güç*](https://iletisim.com.tr/kitap/yapay-zeka-ve-kapitalizmin-gelecegi/10220), çev. Barış Cezar, İletişim Yayınları. Yapay zekâ, emek ve üretim araçlarının denetimi üzerine Türkçe çalışma.
+- Nick Dyer-Witheford, [*Siber Marx: Yüksek Teknoloji Çağında Sınıf Mücadelesi*](https://www.kitapyurdu.com/kitap/siber-marx-yuksek-teknoloji-caginda-sinif-mucadelesi/58127.html), çev. Ali Çakıroğlu, Aykırı Yayınları. İletişim teknolojileri ile sınıf ilişkileri üzerine Türkçe kitap.
+- Mustafa Arslantunalı, [*Teknopolis*](https://iletisim.com.tr/kitap/teknopolis/9826), İletişim Yayınları. İnternet, yapay zekâ ve teknoloji ideolojileri üzerine Türkçe denemeler.
+- Rekabet Kurumu, [“Dijital Dönüşümün Rekabet Hukukuna Yansımaları”](https://www.rekabet.gov.tr/tr/Guncel/dijital-donusumun-rekabet-hukukuna-yansi-7f1505d9fadced118eb1005056850339). Ağ etkileri, veri sahipliği, platform gücü ve dijital pazarlardaki yoğunlaşma üzerine Türkçe kurumsal çalışma.
+- Türkiye Bilimler Akademisi, [*Yapay Zekâ Çalıştayı Raporu*](https://www.tuba.gov.tr/files/images/2025/YapayZekaRaporu/T%C3%9CBA%20Yapay%20Zeka%20%C3%87al%C4%B1%C5%9Ftay%C4%B1%20Raporu.pdf). Yapay zekâ altyapısı, veri, enerji ve Türkiye'nin teknolojik dönüşümü üzerine Türkçe rapor.

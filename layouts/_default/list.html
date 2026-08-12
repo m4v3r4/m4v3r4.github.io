@@ -17,7 +17,13 @@
     </div>
   {{ else }}
     <div class="post-list">
-      {{ range .Paginator.Pages }}
+      {{ $pages := .Pages.ByDate.Reverse }}
+      {{ $pagerSize := 10 }}
+      {{ if and (eq .Kind "term") (eq .Data.Term "notlar") }}
+        {{ $pages = .Pages.ByDate }}
+        {{ $pagerSize = 20 }}
+      {{ end }}
+      {{ range (.Paginate $pages $pagerSize).Pages }}
         {{ partial "post-card.html" . }}
       {{ else }}
         <p>Bu bölümde henüz içerik yok.</p>

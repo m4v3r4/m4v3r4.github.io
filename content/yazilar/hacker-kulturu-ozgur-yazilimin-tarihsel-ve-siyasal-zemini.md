@@ -1,11 +1,11 @@
 ---
 
 title: "Hacker Kültüründen Özgür Yazılım Hareketine"
-date: 2026-08-10T13:13:00+03:00
+date: 2026-06-26T20:10:00+03:00
 draft: false
 slug: "hacker-kulturunden-ozgur-yazilim-hareketine"
 
-description: "Özgür yazılım hareketinin doğduğu hacker kültürünü, MIT çevresindeki paylaşım pratiklerini ve GNU Projesi'ne uzanan tarihsel dönüşümü Marksist bir bakışla ele almak."
+description: "Özgür yazılım hareketinin doğduğu hacker kültürünü, MIT çevresindeki paylaşım pratiklerini ve GNU Projesi'ne uzanan tarihsel dönüşümü mülkiyet ve paylaşım ilişkileriyle birlikte ele almak."
 
 kategoriler:
 
@@ -309,7 +309,7 @@ Eski kültürde paylaşım büyük ölçüde topluluğun normlarına dayanıyord
 
 Çünkü topluluğun ortak normlarının değişen mülkiyet ilişkileri karşısında tek başına yeterli olmadığını deneyimlemişti.
 
-## Marksist açıdan burada ne görüyoruz?
+## Burada ne görüyoruz?
 
 Bu tarihten doğrudan bir sosyalizm teorisi çıkarmaya çalışmak gereksiz olur.
 
@@ -319,7 +319,7 @@ GNU Projesi de kapitalist üretim biçimini ortadan kaldırmayı amaçlayan bir 
 
 Stallman'ın temel meselesi sınıf mülkiyetinden çok bilgisayar kullanıcısının yazılım karşısındaki özgürlüğü ve insanların birbirleriyle işbirliği yapabilmesiydi.
 
-Ama tam da bu sınırlılık içerisinde Marksist bir çözümleme açısından dikkate değer bazı deneyimler bulunuyor.
+Ama tam da bu sınırlılık içerisinde dikkate değer bazı deneyimler bulunuyor.
 
 İlki, **teknik bilginin üretimi ile teknik bilginin özel mülkiyeti arasında zorunlu bir bağ bulunmadığını** gösteren deneyimdir.
 
@@ -369,7 +369,7 @@ GNU ve copyleft deneyimi burada başka bir şey söylüyordu:
 
 Bir müşterek alanın varlığını sürdürmesi isteniyorsa, onu yeniden kapatabilecek ilişkilere karşı belirli kurumların ve kuralların kurulması gerekir.
 
-Marksist açıdan bunun daha geniş bir karşılığı vardır.
+Bunun daha geniş bir karşılığı vardır.
 
 Toplumsal ilişkiler yalnızca insanların iyi veya kötü niyetlerinden oluşmaz.
 
@@ -383,7 +383,7 @@ Maddi ve hukuki koşullar değiştiğinde çalışma biçimleri de değişti.
 
 ## Hacker kültüründen ne alabiliriz?
 
-Bence sosyalistlerin hacker kültüründen alabileceği şey hazır bir siyasal program değildir.
+Hacker kültüründen alınabilecek şey hazır bir siyasal program değildir.
 
 Daha çok bazı **pratik tavırlardır**.
 
@@ -407,7 +407,7 @@ Beşincisi ise ortaklaşa yaratılmış alanların kendiliğinden sonsuza kadar 
 
 Paylaşım kültürünün yaşayabilmesi için onu maddi ve kurumsal olarak yeniden üretmek gerekir.
 
-Ama Marksist çözümleme hacker kültürünün bıraktığı bu sezgilerde duramaz.
+Ama çözümleme hacker kültürünün bıraktığı bu sezgilerde duramaz.
 
 Hacker:
 
@@ -435,7 +435,7 @@ Belki de bu kültürden alınabilecek en değerli şey tam olarak budur:
 
 Hacker bunu teknik sistem için yaptı.
 
-Marksist teknoloji eleştirisinin görevi aynı tavrı teknolojiyi üreten toplumsal ilişkiler için de geliştirmektir.
+Teknoloji eleştirisinin görevi aynı tavrı teknolojiyi üreten toplumsal ilişkiler için de geliştirmektir.
 
 Özgür yazılım hareketinin hikâyesi ise bu iki alanın nasıl kesişmeye başladığını gösteriyor.
 
@@ -452,31 +452,14 @@ Ve o özgürlüğü korumak için yeni araçlar, yeni kurallar, yeni kurumlar ve
 
 ---
 
-## Kaynaklar
+## Kaynakça ve ileri okuma
 
-- Coleman, E. Gabriella. *Coding Freedom: The Ethics and Aesthetics of Hacking*. Princeton University Press, 2013.  
-  https://press.princeton.edu/books/paperback/9780691144610/coding-freedom
-- Free Software Foundation. *GNU General Public License, Version 1*. 1989.  
-  https://www.gnu.org/licenses/old-licenses/gpl-1.0.html
-- GNU Project. “GNU Emacs — Further Information.”  
-  https://www.gnu.org/software/emacs/
-- GNU Project. “Initial Announcement.”  
-  https://www.gnu.org/gnu/initial-announcement.html
-- GNU Project. “Overview of the GNU System.”  
-  https://www.gnu.org/gnu/about-gnu.html
-- GNU Project. “The GNU Project.”  
-  https://www.gnu.org/gnu/thegnuproject.html
-- GNU Project. “What is Copyleft?”  
-  https://www.gnu.org/licenses/copyleft.html
-- Levy, Steven. *Hackers: Heroes of the Computer Revolution*. Anchor Press/Doubleday, 1984.  
-  https://www.oreilly.com/library/view/hackers-heroes-of/9781449390259/
-- MIT Tech Model Railroad Club. “A Brief History of the Tech Model Railroad Club.”  
-  https://tmrc.mit.edu/history/
-- Stallman, Richard M. “My Lisp Experiences and the Development of GNU Emacs.”  
-  https://www.gnu.org/gnu/rms-lisp.html
-- Stallman, Richard M. “The GNU Manifesto.”  
-  https://www.gnu.org/gnu/manifesto.html
-- Stallman, Richard M. “Why Programs Should be Shared.”  
-  https://www.gnu.org/philosophy/why-free.html
-- Stallman, Richard M. “Why Software Should Be Free.”  
-  https://www.gnu.org/philosophy/shouldbefree.html
+- GNU Projesi, [“GNU Projesi Hakkında”](https://www.gnu.org/gnu/thegnuproject.tr.html). Hacker kültüründen GNU'nun kuruluşuna ve copyleft yaklaşımına uzanan tarihsel anlatı.
+- Richard Stallman, [“GNU Bildirisi”](https://www.gnu.org/gnu/manifesto.tr.html). GNU'nun amacı, paylaşım ilkesi ve özgür yazılım hareketinin programı.
+- GNU Projesi, [“Özgür Yazılım Nedir?”](https://www.gnu.org/philosophy/free-sw.tr.html). Özgür yazılımın dört temel özgürlüğünün Türkçe tanımı.
+- GNU Projesi, [“Copyleft Nedir?”](https://www.gnu.org/licenses/copyleft.tr.html). Paylaşım özgürlüğünü sonraki sürümlerde de koruyan lisanslama yönteminin açıklaması.
+- GNU Projesi, [“Özgür ve Özgür Olmayan Yazılım Kategorileri”](https://www.gnu.org/philosophy/categories.tr.html). Özgür yazılım, copyleft ve açık kaynak terimleri arasındaki ayrımlar.
+- Richard Stallman, [“Açık Kaynak, Özgür Yazılımın Özünü Gözden Kaçırıyor”](https://www.gnu.org/philosophy/open-source-misses-the-point.tr.html). Özgür yazılım ile açık kaynak söylemleri arasındaki siyasal ve etik ayrım.
+- Nick Dyer-Witheford, [*Siber Marx: Yüksek Teknoloji Çağında Sınıf Mücadelesi*](https://www.kitapyurdu.com/kitap/siber-marx-yuksek-teknoloji-caginda-sinif-mucadelesi/58127.html), çev. Ali Çakıroğlu, Aykırı Yayınları, 2004. Hacker emeği ve dijital üretimin sınıfsal bağlamı için Türkçe kitap.
+- Serhat Kaymas, [“Ağ Toplumunda ‘Ağ’ Dışı Kalan Hackerların Muhalefet Biçimi: Hacker Etiği ve Özgür Yazılım”](https://dergipark.org.tr/tr/pub/skad/article/729621). Hacker etiği, ağ toplumu ve özgür yazılım ilişkisini ele alan Türkçe akademik makale.
+- Ufuk Eriş, [“Türkiye'de Kırıcı (Hacker) Kültürü”](https://dergipark.org.tr/tr/pub/e-gifder/issue/7473/98404). Hacker kavramının farklı kullanımlarını ve Türkiye'deki altkültürü inceleyen Türkçe saha araştırması.

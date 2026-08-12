@@ -62,7 +62,11 @@
         </header>
 
         <div class="home-post-grid">
-          {{ range first 4 .Pages.ByDate.Reverse }}
+          {{ $categoryPages := .Pages.ByDate.Reverse }}
+          {{ if eq .Term "notlar" }}
+            {{ $categoryPages = .Pages.ByDate }}
+          {{ end }}
+          {{ range first 4 $categoryPages }}
             <article class="home-post-card">
               <div class="home-post-meta">
                 <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02.01.2006" }}</time>

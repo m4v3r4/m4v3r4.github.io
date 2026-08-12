@@ -1,7 +1,7 @@
 ---
 
 title: "Şüphenin Dijital Üretimi"
-date: 2026-07-10T14:38:00+03:00
+date: 2026-07-30T13:38:00+03:00
 draft: false
 slug: "suphenin-dijital-uretimi"
 
@@ -132,35 +132,15 @@ Yapay zekânın Türkiye'deki siyasal geleceğini belirleyecek çatışma da tam
 
 ---
 
-## Kaynaklar
+## Kaynakça ve ileri okuma
 
-- Anadolu Ajansı, “Cumhurbaşkanı Erdoğan: Ulusal Yapay Zeka Okuryazarlığı programını başlatacağız”, 13 Haziran 2026.  
-  https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-ulusal-yapay-zeka-okuryazarligi-programini-baslatacagiz/3965939
-
-- Anadolu Ajansı, “Kacır: Türkiye, güç dengelerini yeniden yazan yapayı zekayı dijital dünyadaki güvencesi haline getirecek iradeye sahip”, 13 Haziran 2026.  
-  https://www.aa.com.tr/tr/gundem/kacir-turkiye-guc-dengelerini-yeniden-yazan-yapayi-zekayi-dijital-dunyadaki-guvencesi-haline-getirecek-iradeye-sahip/3966149
-
-- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, “Türk Savunma Sanayiinde Bu Hafta Neler Oldu?”, 25 Mayıs 2026.
-  https://www.ssb.gov.tr/haber/turk-savunma-sanayiinde-bu-hafta-neler-oldu-2026-05-25
-
-- T.C. İçişleri Bakanlığı, “BVS - Biyometrik Veri Sistemi”.
-  https://www.icisleri.gov.tr/bilgiteknolojileri/bvs-biyometrik-veri-sistemi-projesi
-
-- T.C. İçişleri Bakanlığı, “Biyometrik Veri Yönetimi Sistemi Tanıtım Toplantısı”, 6 Nisan 2021.
-  https://www.icisleri.gov.tr/bakanimiz-sn-suleyman-soylu-ankarada-biyometrik-veri-yonetimi-sistemi-tanitim-toplantisina-katildi
-
-- T.C. İçişleri Bakanlığı, “Yapay Zeka ASENA Uyuşturucunun İzini Sürüyor”, 2 Haziran 2022.
-  https://www.icisleri.gov.tr/yapay-zeka-asena-uyusturucunun-izini-suruyor
-
-- Anadolu Ajansı, “İstanbul Emniyeti yapay zeka destekli AVCI'yla uyuşturucu satıcılarının ‘siber’ inlerine giriyor”, 6 Nisan 2026.
-  https://www.aa.com.tr/tr/gundem/istanbul-emniyeti-yapay-zeka-destekli-avciyla-uyusturucu-saticilarinin-siber-inlerine-giriyor/3894439
-
-- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, “Yapay Zekâ Destekli Önleyici Kolluk Sistemi (KAHİN)”.
-  https://www.ssb.gov.tr/proje/yapay-zeka-destekli-onleyici-kolluk-sistemi-kahin
-
-- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, “Siber Güvenlik ve Bilişim Sistemleri” proje listesi.
-  https://www.ssb.gov.tr/proje_kategori/siber-guvenlik-ve-bilisim-sistemleri
-
-- UYAP Bilişim Sistemi, “CBS Örgüt Tahmin Projesi”, 26 Haziran 2026.
-  https://www.uyap.gov.tr/cbs-orgut-tahmin-projesi
-
+- Anadolu Ajansı, [“Cumhurbaşkanı Erdoğan: Ulusal Yapay Zekâ Okuryazarlığı programını başlatacağız”](https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-ulusal-yapay-zeka-okuryazarligi-programini-baslatacagiz/3965939), 13 Haziran 2026.
+- Anadolu Ajansı, [“Kacır: Türkiye, güç dengelerini yeniden yazan yapay zekâyı dijital dünyadaki güvencesi hâline getirecek iradeye sahip”](https://www.aa.com.tr/tr/gundem/kacir-turkiye-guc-dengelerini-yeniden-yazan-yapayi-zekayi-dijital-dunyadaki-guvencesi-haline-getirecek-iradeye-sahip/3966149), 13 Haziran 2026.
+- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, [“Türk Savunma Sanayiinde Bu Hafta Neler Oldu?”](https://www.ssb.gov.tr/haber/turk-savunma-sanayiinde-bu-hafta-neler-oldu-2026-05-25), 25 Mayıs 2026.
+- T.C. İçişleri Bakanlığı, [“BVS – Biyometrik Veri Sistemi”](https://www.icisleri.gov.tr/bilgiteknolojileri/bvs-biyometrik-veri-sistemi-projesi).
+- T.C. İçişleri Bakanlığı, [“Biyometrik Veri Yönetimi Sistemi Tanıtım Toplantısı”](https://www.icisleri.gov.tr/bakanimiz-sn-suleyman-soylu-ankarada-biyometrik-veri-yonetimi-sistemi-tanitim-toplantisina-katildi), 6 Nisan 2021.
+- T.C. İçişleri Bakanlığı, [“Yapay Zekâ ASENA Uyuşturucunun İzini Sürüyor”](https://www.icisleri.gov.tr/yapay-zeka-asena-uyusturucunun-izini-suruyor), 2 Haziran 2022.
+- Anadolu Ajansı, [“İstanbul Emniyeti yapay zekâ destekli AVCI'yla uyuşturucu satıcılarının ‘siber’ inlerine giriyor”](https://www.aa.com.tr/tr/gundem/istanbul-emniyeti-yapay-zeka-destekli-avciyla-uyusturucu-saticilarinin-siber-inlerine-giriyor/3894439), 6 Nisan 2026.
+- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, [“Yapay Zekâ Destekli Önleyici Kolluk Sistemi (KAHİN)”](https://www.ssb.gov.tr/proje/yapay-zeka-destekli-onleyici-kolluk-sistemi-kahin).
+- T.C. Cumhurbaşkanlığı Savunma Sanayii Başkanlığı, [“Siber Güvenlik ve Bilişim Sistemleri”](https://www.ssb.gov.tr/proje_kategori/siber-guvenlik-ve-bilisim-sistemleri).
+- UYAP Bilişim Sistemi, [“CBS Örgüt Tahmin Projesi”](https://www.uyap.gov.tr/cbs-orgut-tahmin-projesi), 26 Haziran 2026.

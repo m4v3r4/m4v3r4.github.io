@@ -1,6 +1,6 @@
 ---
 title: "Bir Bilinç Akışının Kaydı"
-date: 2026-08-01T11:00:00+03:00
+date: 2026-06-14T09:20:00+03:00
 draft: false
 slug: "ilk-yazi"
 aliases:
@@ -45,3 +45,9 @@ Bu aynı zamanda kendime açtığım bir düşünme alanı. Yazarken yavaşlamak
 Bu ilk yazı bir manifesto ya da kesin bir yayın programı değil. Yalnızca başlangıçta bulunduğum yeri işaretleyen küçük bir not. Zamanla bu sitenin dili, konuları ve biçimi de değişebilir.
 
 Değişmemesini istediğim tek şey, buranın samimi bir kayıt alanı olması: hazır cevapların vitrini değil; merakın, kuşkunun, öğrenmenin ve dönüşmenin izlerini taşıyan bir bilinç akışı arşivi.
+
+---
+
+## Kaynak notu
+
+Bu yazı kişisel bir açılış notudur; dış kaynaklardan aktarılmış olgusal iddia veya alıntı içermediği için kaynakça kullanılmamıştır.
